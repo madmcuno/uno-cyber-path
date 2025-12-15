@@ -10,3 +10,11 @@
 
 
 
+\## Domain 2 — Threats, Vulnerabilities, and Mitigations
+
+| Date | Set | Score | Missed Questions | Notes |
+
+|------|-----|-------|------------------|-------|
+
+
+
