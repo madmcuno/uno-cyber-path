@@ -1,5 +1,17 @@
 # Practice Scores
 
+> ⚠️ IMPORTANT  
+> This file is a shared example/template.  
+>  
+> To track your own progress **without modifying this repository**, do ONE of the following:
+>  
+> **Option A (recommended):**  
+> Create a private file named `practice-scores.private.md` in this folder.  
+> This file is ignored by Git and will stay local to your machine.
+>  
+> **Option B:**  
+> Fork this repository and track your progress in your own fork.
+
 
 
 ## Domain 1 — General Security Concepts
