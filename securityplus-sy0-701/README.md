@@ -56,3 +56,25 @@ No exam dumps or copyrighted material are included.
 
 
 
+\## Tracking Your Progress
+
+
+
+This Security+ study material is designed to be reused by many people.
+
+
+
+\- `progress/practice-scores.md` is an example/template only
+
+\- To track your own progress locally, create:
+
+&nbsp; - `progress/practice-scores.private.md`
+
+\- Files ending in `.private.md` are ignored by Git and will not be committed
+
+
+
+If you want your progress stored on GitHub, fork this repository and track results in your own fork.
+
+
+
