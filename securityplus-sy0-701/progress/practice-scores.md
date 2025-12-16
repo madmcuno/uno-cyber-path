@@ -4,10 +4,10 @@
 
 \## Domain 1 — General Security Concepts
 
-| Date | Set | Score | Missed Questions | Notes |
+| Date       | Set | Score | Missed Questions | Notes |
 
-|------|-----|-------|------------------|-------|
-| YYYY-MM-DD | - | - | - | - |
+|------------|-----|-------|------------------|-------|
+| YYYY-MM-DD | -   | -     | -                | -     |
 
 
 
