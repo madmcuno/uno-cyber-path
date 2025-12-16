@@ -7,6 +7,7 @@
 | Date | Set | Score | Missed Questions | Notes |
 
 |------|-----|-------|------------------|-------|
+| YYYY-MM-DD | - | - | - | - |
 
 
 
