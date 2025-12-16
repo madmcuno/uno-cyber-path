@@ -41,4 +41,12 @@
 |------|-----|-------|------------------|-------|
 
 
+Here's an EXAMPLE of one way this section can be filled out:
+
+## Domain 1 — General Security Concepts
+
+| Date       | Set   | Score | Missed Questions | Notes |
+|------------|-------|-------|------------------|-------|
+| 2025-12-16 | D1-15 | 13/15 | Q7, Q12          | Confused non-repudiation vs integrity |
+| 2025-12-18 | D1-15 | 15/15 | —                | Clean pass |
 
