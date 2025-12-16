@@ -12,33 +12,32 @@
 
 ## Domain 2 — Threats, Vulnerabilities, and Mitigations
 
-| Date | Set | Score | Missed Questions | Notes |
-
-|------|-----|-------|------------------|-------|
-
+| Date       | Set | Score | Missed Questions | Notes |
+|------------|-----|-------|------------------|-------|
+| YYYY-MM-DD | -   | -     | -                | -     |
 
 
 ## Domain 3 — Security Architecture
 
-| Date | Set | Score | Missed Questions | Notes |
-
-|------|-----|-------|------------------|-------|
+| Date       | Set | Score | Missed Questions | Notes |
+|------------|-----|-------|------------------|-------|
+| YYYY-MM-DD | -   | -     | -                | -     |
 
 
 
 ## Domain 4 — Security Operations
 
-| Date | Set | Score | Missed Questions | Notes |
-
-|------|-----|-------|------------------|-------|
+| Date       | Set | Score | Missed Questions | Notes |
+|------------|-----|-------|------------------|-------|
+| YYYY-MM-DD | -   | -     | -                | -     |
 
 
 
 ## Domain 5 — Security Program Management
 
-| Date | Set | Score | Missed Questions | Notes |
-
-|------|-----|-------|------------------|-------|
+| Date       | Set | Score | Missed Questions | Notes |
+|------------|-----|-------|------------------|-------|
+| YYYY-MM-DD | -   | -     | -                | -     |
 
 
 Here's an EXAMPLE of one way this section can be filled out:
