@@ -1,80 +1,32 @@
-\# CompTIA Security+ SY0-701 Study Manual
+# CompTIA Security+ SY0-701 Study Manual
 
+This directory contains structured study material for the CompTIA Security+ (SY0-701) exam.
 
+## Goals
+- Learn core security concepts aligned with the official objectives.
+- Reinforce learning with original question banks and labs.
+- Track progress over time with repeatable templates.
 
-This directory contains my structured study material for the CompTIA Security+ (SY0-701) certification.
+## Study Loop
+1. Watch video lessons (e.g., Professor Messer SY0-701 series).
+2. Take domain notes in `objectives/`.
+3. Drill questions in `question-banks/`.
+4. Reinforce with hands-on labs in `labs/`.
+5. Review weak areas using `cheat-sheets/`.
 
+## Contents
+- Roadmap: `roadmap.md`
+- Objectives: `objectives/`
+- Question Banks: `question-banks/`
+- Labs: `labs/`
+- Cheat Sheets: `cheat-sheets/`
+- Progress Tracking: `progress/`
 
+## Ethics Statement
+All questions and notes are original and for personal study. No exam dumps or copyrighted material.
 
-The goal of this manual is to:
-
-\- Learn security concepts aligned to exam objectives
-
-\- Reinforce learning with original question banks
-
-\- Practice with small hands-on labs
-
-\- Track progress over time
-
-
-
-\## Study Loop
-
-1\. Watch video lessons (Professor Messer SY0-701)
-
-2\. Take notes by domain (objectives/)
-
-3\. Drill questions (question-banks/)
-
-4\. Reinforce with labs (labs/)
-
-5\. Review weak areas (cheat-sheets/)
-
-
-
-\## Contents
-
-\- Roadmap: roadmap.md
-
-\- Objectives: objectives/
-
-\- Question Banks: question-banks/
-
-\- Labs: labs/
-
-\- Cheat Sheets: cheat-sheets/
-
-\- Progress Tracking: progress/
-
-
-
-\## Ethics Statement
-
-All questions and notes are original and for learning purposes.
-
-No exam dumps or copyrighted material are included.
-
-
-
-\## Tracking Your Progress
-
-
-
-This Security+ study material is designed to be reused by many people.
-
-
-
-\- `progress/practice-scores.md` is an example/template only
-
-\- To track your own progress locally, create:
-
-&nbsp; - `progress/practice-scores.private.md`
-
-\- Files ending in `.private.md` are ignored by Git and will not be committed
-
-
-
-If you want your progress stored on GitHub, fork this repository and track results in your own fork.
-
-
-
+## Tracking Your Progress
+This material is designed to be reused without overwriting the template.
+- `progress/practice-scores.md` is a shared example/template.
+- To keep personal notes local, create `progress/practice-scores.private.md` (files ending in `.private.md` are gitignored).
+- Alternatively, fork the repository and log progress in your fork.
