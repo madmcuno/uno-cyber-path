@@ -1,654 +1,142 @@
-\# Question Bank — Domain 3 (Security Architecture)
+# Question Bank – Domain 3 (Security Architecture)
 
-
-
-\## How to Use
-
-\- Answer questions without looking at the answer key.
-
-\- Write answers as: `1C 2A 3B ...`
-
-\- Review explanations for every missed question.
-
-\- Log results in `progress/practice-scores.md`.
-
-
-
----# Question Bank — Domain 3 (Security Architecture)
-
-
-
-\## How to Use
-
-\- Answer questions without looking at the answer key.
-
-\- Write answers as: `1C 2A 3B ...`
-
-\- Review explanations for every missed question.
-
-\- Log results in `progress/practice-scores.md`.
-
-
+## How to Use
+- Answer without looking at the answer key.
+- Record responses (e.g., `1B 2D 3C`) for quick review.
+- Study every missed question and log the run in `progress/practice-scores.md`.
 
 ---
 
+## Questions
 
-
-\## Questions
-
-
-
-\### Q1 — Segmentation Goal
-
-
-
-Which outcome is the PRIMARY goal of network segmentation?
-
-
+### Q1 – Segmentation Goal
+What is the PRIMARY goal of network segmentation?
 
 A) Increase bandwidth  
-
 B) Reduce lateral movement after compromise  
-
 C) Remove the need for patching  
-
 D) Replace encryption
 
+---
 
+### Q2 – DMZ Purpose
+A company must host a public web server that is reachable from the internet but isolated from internal systems. Where should it reside?
+
+A) Internal LAN  
+B) Demilitarized zone (DMZ)  
+C) Management VLAN  
+D) Database subnet only
 
 ---
 
+### Q3 – Secure Remote Access
+Which option BEST provides secure remote access to internal resources while limiting exposure?
 
-
-\### Q2 — DMZ Purpose
-
-
-
-A company hosts a public web server that must be reachable from the internet but isolated from internal systems. Where should it be placed?
-
-
-
-A) In the internal LAN  
-
-B) In a DMZ  
-
-C) On a management VLAN  
-
-D) Behind the database subnet only
-
-
-
----
-
-
-
-\### Q3 — Secure Remote Access
-
-
-
-Which option BEST provides secure remote access to internal resources while reducing exposure of those resources to the internet?
-
-
-
-A) Port forwarding RDP to a workstation  
-
+A) Port forwarding RDP directly to endpoints  
 B) VPN with MFA  
-
-C) Disable firewall rules on the edge  
-
-D) Use HTTP for remote admin tools
-
-
+C) Disable edge firewall rules  
+D) HTTP-based admin tools on the internet
 
 ---
 
-
-
-\### Q4 — Secure Protocol Choice
-
-
-
-Which protocol is BEST for secure remote administration of Linux systems?
-
-
+### Q4 – Secure Protocol Choice
+Which protocol is BEST for remote administration of Linux servers?
 
 A) Telnet  
-
 B) SSH  
-
 C) FTP  
-
 D) HTTP
 
-
-
 ---
 
+### Q5 – Cloud Responsibility
+In a public cloud model, which statement is MOST accurate?
 
-
-\### Q5 — Cloud Responsibility
-
-
-
-In a typical public cloud model, which statement is MOST accurate?
-
-
-
-A) The customer is responsible for the physical security of the data center  
-
-B) The cloud provider is responsible for all application security  
-
+A) Customers handle data-center physical security  
+B) Providers own all application security  
 C) Responsibilities are shared between provider and customer  
-
-D) The provider is not responsible for hypervisor security
-
-
+D) Providers are not responsible for hypervisor security
 
 ---
 
+### Q6 – WAF Use Case
+Which control MOST effectively protects a public web app from SQL injection?
 
-
-\### Q6 — WAF Use Case
-
-
-
-Which control is MOST appropriate to help protect a public web application from common web attacks like SQL injection?
-
-
-
-A) NAC (Network Access Control)  
-
-B) WAF (Web Application Firewall)  
-
+A) NAC  
+B) Web Application Firewall (WAF)  
 C) Disk encryption  
-
-D) Screen privacy filters
-
-
+D) Privacy screen filters
 
 ---
 
-
-
-\### Q7 — DLP Focus
-
-
-
+### Q7 – DLP Focus
 What is the PRIMARY goal of Data Loss Prevention (DLP)?
 
-
-
-A) Prevent malware infections  
-
+A) Stop malware infections  
 B) Prevent unauthorized data exfiltration  
-
-C) Improve availability during outages  
-
+C) Improve availability  
 D) Replace access control lists
 
-
-
 ---
 
-
-
-\### Q8 — Bastion Host
-
-
-
-A company requires administrators to access internal servers only through a hardened jump box with strong logging. This is BEST described as a:
-
-
+### Q8 – Bastion Host
+Administrators must connect to internal servers through a hardened jump box with logging. This component is a:
 
 A) Honeypot  
-
 B) Bastion host / jump server  
-
 C) Proxy cache server  
-
 D) SIEM collector
 
-
-
 ---
 
-
-
-\### Q9 — Secure Wi-Fi
-
-
-
-Which configuration MOST improves Wi-Fi security for a business network?
-
-
+### Q9 – Secure Wi-Fi
+Which configuration MOST improves business Wi-Fi security?
 
 A) WEP with a long key  
-
 B) WPA2/WPA3-Enterprise with 802.1X  
-
-C) Open Wi-Fi with a captive portal only  
-
+C) Open Wi-Fi plus captive portal  
 D) Disable SSID broadcast
 
-
-
 ---
 
-
-
-\### Q10 — High Availability
-
-
-
-Which design choice MOST directly improves availability for a critical system?
-
-
+### Q10 – High Availability
+Which design choice MOST directly improves availability for critical systems?
 
 A) Single firewall with default rules  
-
 B) Redundant components with failover  
-
 C) Shared admin accounts  
-
-D) Disabling logs to save disk space
-
-
+D) Disable logging to save disk space
 
 ---
 
+## Answer Key and Explanations
 
+### Q1
+**Answer:** B – Segmentation limits an attacker’s lateral movement after a compromise.
 
-\## Answer Key \& Explanations
+### Q2
+**Answer:** B – A DMZ isolates public-facing services from the internal network.
 
+### Q3
+**Answer:** B – A VPN with MFA protects remote sessions and reduces exposed services.
 
+### Q4
+**Answer:** B – SSH encrypts administrative sessions; Telnet/HTTP/FTP do not.
 
-\### Q1
+### Q5
+**Answer:** C – Cloud security responsibilities are shared based on the service model.
 
-\*\*Correct Answer:\*\* B — Reduce lateral movement after compromise  
+### Q6
+**Answer:** B – A WAF inspects HTTP(S) traffic and blocks common web exploits.
 
-Segmentation limits how far an attacker can move if one segment is breached.
+### Q7
+**Answer:** B – DLP focuses on preventing sensitive data from leaving authorized channels.
 
+### Q8
+**Answer:** B – A bastion host (jump box) is a hardened single entry point for admins.
 
+### Q9
+**Answer:** B – WPA2/WPA3-Enterprise plus 802.1X delivers strong authentication and encryption.
 
-\### Q2
-
-\*\*Correct Answer:\*\* B — In a DMZ  
-
-DMZ isolates public-facing systems from the internal network.
-
-
-
-\### Q3
-
-\*\*Correct Answer:\*\* B — VPN with MFA  
-
-A VPN reduces direct exposure and MFA helps protect against stolen passwords.
-
-
-
-\### Q4
-
-\*\*Correct Answer:\*\* B — SSH  
-
-SSH provides encrypted remote shell access; Telnet is plaintext.
-
-
-
-\### Q5
-
-\*\*Correct Answer:\*\* C — Responsibilities are shared  
-
-Providers secure underlying infrastructure; customers secure configs, identities, data, and apps (varies by model).
-
-
-
-\### Q6
-
-\*\*Correct Answer:\*\* B — WAF  
-
-A WAF is designed to filter/inspect web traffic and block common web attacks.
-
-
-
-\### Q7
-
-\*\*Correct Answer:\*\* B — Prevent unauthorized data exfiltration  
-
-DLP focuses on controlling sensitive data movement (email, web upload, USB, etc.).
-
-
-
-\### Q8
-
-\*\*Correct Answer:\*\* B — Bastion host / jump server  
-
-A hardened, monitored entry point for administrative access.
-
-
-
-\### Q9
-
-\*\*Correct Answer:\*\* B — WPA2/WPA3-Enterprise with 802.1X  
-
-Enterprise Wi-Fi uses strong authentication and centralized control, unlike WEP/open networks.
-
-
-
-\### Q10
-
-\*\*Correct Answer:\*\* B — Redundant components with failover  
-
-Availability improves most with redundancy and automatic failover.
-
-
-
-
-
-\## Questions
-
-
-
-\### Q1 — Segmentation Goal
-
-
-
-Which outcome is the PRIMARY goal of network segmentation?
-
-
-
-A) Increase bandwidth  
-
-B) Reduce lateral movement after compromise  
-
-C) Remove the need for patching  
-
-D) Replace encryption
-
-
-
----
-
-
-
-\### Q2 — DMZ Purpose
-
-
-
-A company hosts a public web server that must be reachable from the internet but isolated from internal systems. Where should it be placed?
-
-
-
-A) In the internal LAN  
-
-B) In a DMZ  
-
-C) On a management VLAN  
-
-D) Behind the database subnet only
-
-
-
----
-
-
-
-\### Q3 — Secure Remote Access
-
-
-
-Which option BEST provides secure remote access to internal resources while reducing exposure of those resources to the internet?
-
-
-
-A) Port forwarding RDP to a workstation  
-
-B) VPN with MFA  
-
-C) Disable firewall rules on the edge  
-
-D) Use HTTP for remote admin tools
-
-
-
----
-
-
-
-\### Q4 — Secure Protocol Choice
-
-
-
-Which protocol is BEST for secure remote administration of Linux systems?
-
-
-
-A) Telnet  
-
-B) SSH  
-
-C) FTP  
-
-D) HTTP
-
-
-
----
-
-
-
-\### Q5 — Cloud Responsibility
-
-
-
-In a typical public cloud model, which statement is MOST accurate?
-
-
-
-A) The customer is responsible for the physical security of the data center  
-
-B) The cloud provider is responsible for all application security  
-
-C) Responsibilities are shared between provider and customer  
-
-D) The provider is not responsible for hypervisor security
-
-
-
----
-
-
-
-\### Q6 — WAF Use Case
-
-
-
-Which control is MOST appropriate to help protect a public web application from common web attacks like SQL injection?
-
-
-
-A) NAC (Network Access Control)  
-
-B) WAF (Web Application Firewall)  
-
-C) Disk encryption  
-
-D) Screen privacy filters
-
-
-
----
-
-
-
-\### Q7 — DLP Focus
-
-
-
-What is the PRIMARY goal of Data Loss Prevention (DLP)?
-
-
-
-A) Prevent malware infections  
-
-B) Prevent unauthorized data exfiltration  
-
-C) Improve availability during outages  
-
-D) Replace access control lists
-
-
-
----
-
-
-
-\### Q8 — Bastion Host
-
-
-
-A company requires administrators to access internal servers only through a hardened jump box with strong logging. This is BEST described as a:
-
-
-
-A) Honeypot  
-
-B) Bastion host / jump server  
-
-C) Proxy cache server  
-
-D) SIEM collector
-
-
-
----
-
-
-
-\### Q9 — Secure Wi-Fi
-
-
-
-Which configuration MOST improves Wi-Fi security for a business network?
-
-
-
-A) WEP with a long key  
-
-B) WPA2/WPA3-Enterprise with 802.1X  
-
-C) Open Wi-Fi with a captive portal only  
-
-D) Disable SSID broadcast
-
-
-
----
-
-
-
-\### Q10 — High Availability
-
-
-
-Which design choice MOST directly improves availability for a critical system?
-
-
-
-A) Single firewall with default rules  
-
-B) Redundant components with failover  
-
-C) Shared admin accounts  
-
-D) Disabling logs to save disk space
-
-
-
----
-
-
-
-\## Answer Key \& Explanations
-
-
-
-\### Q1
-
-\*\*Correct Answer:\*\* B — Reduce lateral movement after compromise  
-
-Segmentation limits how far an attacker can move if one segment is breached.
-
-
-
-\### Q2
-
-\*\*Correct Answer:\*\* B — In a DMZ  
-
-DMZ isolates public-facing systems from the internal network.
-
-
-
-\### Q3
-
-\*\*Correct Answer:\*\* B — VPN with MFA  
-
-A VPN reduces direct exposure and MFA helps protect against stolen passwords.
-
-
-
-\### Q4
-
-\*\*Correct Answer:\*\* B — SSH  
-
-SSH provides encrypted remote shell access; Telnet is plaintext.
-
-
-
-\### Q5
-
-\*\*Correct Answer:\*\* C — Responsibilities are shared  
-
-Providers secure underlying infrastructure; customers secure configs, identities, data, and apps (varies by model).
-
-
-
-\### Q6
-
-\*\*Correct Answer:\*\* B — WAF  
-
-A WAF is designed to filter/inspect web traffic and block common web attacks.
-
-
-
-\### Q7
-
-\*\*Correct Answer:\*\* B — Prevent unauthorized data exfiltration  
-
-DLP focuses on controlling sensitive data movement (email, web upload, USB, etc.).
-
-
-
-\### Q8
-
-\*\*Correct Answer:\*\* B — Bastion host / jump server  
-
-A hardened, monitored entry point for administrative access.
-
-
-
-\### Q9
-
-\*\*Correct Answer:\*\* B — WPA2/WPA3-Enterprise with 802.1X  
-
-Enterprise Wi-Fi uses strong authentication and centralized control, unlike WEP/open networks.
-
-
-
-\### Q10
-
-\*\*Correct Answer:\*\* B — Redundant components with failover  
-
-Availability improves most with redundancy and automatic failover.
-
-
-
+### Q10
+**Answer:** B – Redundancy with failover is the core of high-availability design.
