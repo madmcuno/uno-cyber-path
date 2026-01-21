@@ -8,13 +8,13 @@ Purpose: prepare for entry-level cybersecurity interviews by demonstrating clear
 
 ### Q1. What is the CIA triad?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Confidentiality prevents unauthorized access, integrity prevents unauthorized modification, and availability ensures systems remain accessible when needed.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: the priority can shift by environment and business impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): the priority can shift by environment and business impact.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Which is most impacted by ransomware?**
   Availability first, then integrity.
@@ -23,11 +23,11 @@ Confidentiality prevents unauthorized access, integrity prevents unauthorized mo
 - **Hospital system -- what is the priority?**
   Availability, but never at the cost of patient data confidentiality.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Ransomware encrypts hospital systems, halting patient care.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
@@ -35,7 +35,7 @@ Ransomware encrypts hospital systems, halting patient care.
 | `df -h` | `Get-Service` |
 | `systemctl status` | `wevtutil qe System` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Treating CIA as equal in all environments
 - Ignoring business impact
@@ -44,13 +44,13 @@ Ransomware encrypts hospital systems, halting patient care.
 
 ### Q2. Authentication vs Authorization
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Authentication verifies identity. Authorization determines access after identity is verified.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: identity precedes access; least privilege limits impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): identity precedes access; least privilege limits impact.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Can authorization exist without authentication?**
   No -- authorization assumes identity.
@@ -59,11 +59,11 @@ Authentication verifies identity. Authorization determines access after identity
 - **How does least privilege help?**
   Limits blast radius after compromise.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Compromised credentials grant excessive access due to poor RBAC.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
@@ -71,7 +71,7 @@ Compromised credentials grant excessive access due to poor RBAC.
 | `groups` | `Get-LocalGroup` |
 | `sudo -l` | `whoami /priv` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Using terms interchangeably
 - Ignoring access reviews
@@ -80,13 +80,13 @@ Compromised credentials grant excessive access due to poor RBAC.
 
 ### Q3. What is phishing?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Phishing is social engineering designed to trick users into revealing information or executing malicious actions.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: response is about containment and escalation, not blame.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): response is about containment and escalation, not blame.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **User clicked link -- now what?**
   Isolate system, report, preserve evidence.
@@ -95,18 +95,18 @@ Phishing is social engineering designed to trick users into revealing informatio
 - **Why is spear phishing harder?**
   Personalization increases trust.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Business Email Compromise leads to fraudulent wire transfer.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `grep mail.log` | `Get-WinEvent -LogName Security` |
 | `journalctl` | `Get-MessageTrace` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Blaming users
 - Failing to escalate quickly
@@ -117,13 +117,13 @@ Business Email Compromise leads to fraudulent wire transfer.
 
 ### Q4. What happens when you type a URL into a browser?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: DNS and transport are as critical as the web request.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): DNS and transport are as critical as the web request.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Where can attackers intercept?**
   DNS, network, or TLS downgrade.
@@ -132,18 +132,18 @@ DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 - **Why HTTPS?**
   Encryption and integrity.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 DNS hijacking redirects users to a malicious site.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `dig` | `nslookup` |
 | `ss -tuln` | `netstat -ano` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Skipping DNS
 - Treating HTTPS as "just encryption"
@@ -152,13 +152,13 @@ DNS hijacking redirects users to a malicious site.
 
 ### Q5. TCP vs UDP
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 TCP is reliable and connection-oriented. UDP is fast and connectionless.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: security depends on the use case, not the protocol alone.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): security depends on the use case, not the protocol alone.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Why UDP in amplification attacks?**
   No handshake, spoofable source IPs.
@@ -167,18 +167,18 @@ TCP is reliable and connection-oriented. UDP is fast and connectionless.
 - **Is UDP insecure by default?**
   No -- depends on the use case.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 DNS amplification DDoS disrupts public services.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `tcpdump` | `netstat -an` |
 | `ss -u` | `Get-NetUDPEndpoint` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Calling UDP "unsafe"
 - Ignoring protocol context
@@ -187,13 +187,13 @@ DNS amplification DDoS disrupts public services.
 
 ### Q6. What is a firewall?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 A firewall filters traffic based on rules like IP, port, and protocol.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: firewalls reduce risk, they do not eliminate it.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): firewalls reduce risk, they do not eliminate it.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **What bypasses firewalls?**
   Allowed ports and insider threats.
@@ -202,18 +202,18 @@ A firewall filters traffic based on rules like IP, port, and protocol.
 - **Host vs network firewall?**
   Local vs perimeter control.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Attacker pivots laterally after initial compromise.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `iptables -L` | `Get-NetFirewallRule` |
 | `ufw status` | `Get-NetFirewallProfile` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Treating firewalls as full security
 - No segmentation
@@ -224,13 +224,13 @@ Attacker pivots laterally after initial compromise.
 
 ### Q7. Antivirus vs EDR vs SIEM
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates and correlates logs.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: tools support decisions; response and ownership matter most.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): tools support decisions; response and ownership matter most.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Why won't SIEM stop malware?**
   It detects; it does not block.
@@ -239,11 +239,11 @@ Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates
 - **Post-incident -- most useful?**
   SIEM.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 EDR detects lateral movement; SIEM correlates domain-wide activity.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
@@ -251,7 +251,7 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 | `last` | `Get-WinEvent` |
 | `/var/log` | `Get-WinEvent -LogName Security` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Treating tools as interchangeable
 - No alert ownership
@@ -260,13 +260,13 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 
 ### Q8. What are logs and why do they matter?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Logs provide visibility, detection, accountability, and forensic evidence.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: quality and consistency matter more than sheer volume.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): quality and consistency matter more than sheer volume.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **What makes logs unreliable?**
   No NTP, gaps, or tampering.
@@ -275,18 +275,18 @@ Logs provide visibility, detection, accountability, and forensic evidence.
 - **Reduce alert fatigue?**
   Tuning and baselining.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Missing logs delay breach detection.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `journalctl` | `w32tm /query /status` |
 | `chronyc tracking` | `Get-WinEvent` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Logging everything, analyzing nothing
 
@@ -296,13 +296,13 @@ Missing logs delay breach detection.
 
 ### Q9. Suspected malware -- first step?
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f6efdf?style=flat-square)
 
 Isolate the system, preserve evidence, escalate per procedure.
 
-> <code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: containment first, then investigation.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-f0e2c0?style=flat-square): containment first, then investigation.
 
-<code style="background-color:#f0e2c0;color:#6b553a;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-f0e2c0?style=flat-square)
 
 - **Who do you notify?**
   SOC or IR lead.
@@ -311,18 +311,18 @@ Isolate the system, preserve evidence, escalate per procedure.
 - **Executive device?**
   Same process, higher urgency.
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
+![Real-World Breach Scenario](https://img.shields.io/badge/Real--World%20Breach%20Scenario-e7d2c3?style=flat-square)
 
 Malware spreads due to delayed isolation.
 
-<code style="background-color:#f6efdf;color:#6a5b47;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
+![Linux / Windows Follow-Ups](https://img.shields.io/badge/Linux%20%2F%20Windows%20Follow--Ups-f6efdf?style=flat-square)
 
 | Linux | Windows |
 | --- | --- |
 | `ip link set down` | Disable NIC |
 | `ps aux` | `tasklist` |
 
-<code style="background-color:#e7d2c3;color:#5a3e2b;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
+![Common Mistakes](https://img.shields.io/badge/Common%20Mistakes-e7d2c3?style=flat-square)
 
 - Rebooting
 - Acting without authorization
@@ -362,6 +362,7 @@ Malware spreads due to delayed isolation.
 - Clear escalation
 - Process over ego
 - Business-aware decisions
+
 
 
 
