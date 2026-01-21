@@ -12,9 +12,9 @@ Purpose: prepare for entry-level cybersecurity interviews by demonstrating clear
 
 Confidentiality prevents unauthorized access, integrity prevents unauthorized modification, and availability ensures systems remain accessible when needed.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): the priority can shift by environment and business impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): the priority can shift by environment and business impact.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Which is most impacted by ransomware?**
   Availability first, then integrity.
@@ -48,9 +48,9 @@ Ransomware encrypts hospital systems, halting patient care.
 
 Authentication verifies identity. Authorization determines access after identity is verified.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): identity precedes access; least privilege limits impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): identity precedes access; least privilege limits impact.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Can authorization exist without authentication?**
   No -- authorization assumes identity.
@@ -84,9 +84,9 @@ Compromised credentials grant excessive access due to poor RBAC.
 
 Phishing is social engineering designed to trick users into revealing information or executing malicious actions.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): response is about containment and escalation, not blame.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): response is about containment and escalation, not blame.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **User clicked link -- now what?**
   Isolate system, report, preserve evidence.
@@ -121,9 +121,9 @@ Business Email Compromise leads to fraudulent wire transfer.
 
 DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): DNS and transport are as critical as the web request.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): DNS and transport are as critical as the web request.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Where can attackers intercept?**
   DNS, network, or TLS downgrade.
@@ -156,9 +156,9 @@ DNS hijacking redirects users to a malicious site.
 
 TCP is reliable and connection-oriented. UDP is fast and connectionless.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): security depends on the use case, not the protocol alone.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): security depends on the use case, not the protocol alone.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Why UDP in amplification attacks?**
   No handshake, spoofable source IPs.
@@ -191,9 +191,9 @@ DNS amplification DDoS disrupts public services.
 
 A firewall filters traffic based on rules like IP, port, and protocol.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): firewalls reduce risk, they do not eliminate it.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): firewalls reduce risk, they do not eliminate it.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **What bypasses firewalls?**
   Allowed ports and insider threats.
@@ -228,9 +228,9 @@ Attacker pivots laterally after initial compromise.
 
 Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates and correlates logs.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): tools support decisions; response and ownership matter most.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): tools support decisions; response and ownership matter most.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Why won't SIEM stop malware?**
   It detects; it does not block.
@@ -264,9 +264,9 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 
 Logs provide visibility, detection, accountability, and forensic evidence.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): quality and consistency matter more than sheer volume.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): quality and consistency matter more than sheer volume.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **What makes logs unreliable?**
   No NTP, gaps, or tampering.
@@ -300,9 +300,9 @@ Missing logs delay breach detection.
 
 Isolate the system, preserve evidence, escalate per procedure.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-e2c48b?style=flat): containment first, then investigation.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): containment first, then investigation.
 
-![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e2c48b?style=flat)
+![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
 - **Who do you notify?**
   SOC or IR lead.
@@ -362,6 +362,9 @@ Malware spreads due to delayed isolation.
 - Clear escalation
 - Process over ego
 - Business-aware decisions
+
+
+
 
 
 
