@@ -8,11 +8,11 @@ Purpose: prepare for entry-level cybersecurity interviews by demonstrating clear
 
 ### Q1. What is the CIA triad?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Confidentiality prevents unauthorized access, integrity prevents unauthorized modification, and availability ensures systems remain accessible when needed.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): the priority can shift by environment and business impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): the priority can shift by environment and business impact.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -44,11 +44,11 @@ Ransomware encrypts hospital systems, halting patient care.
 
 ### Q2. Authentication vs Authorization
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Authentication verifies identity. Authorization determines access after identity is verified.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): identity precedes access; least privilege limits impact.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): identity precedes access; least privilege limits impact.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -80,11 +80,11 @@ Compromised credentials grant excessive access due to poor RBAC.
 
 ### Q3. What is phishing?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Phishing is social engineering designed to trick users into revealing information or executing malicious actions.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): response is about containment and escalation, not blame.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): response is about containment and escalation, not blame.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -117,11 +117,11 @@ Business Email Compromise leads to fraudulent wire transfer.
 
 ### Q4. What happens when you type a URL into a browser?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): DNS and transport are as critical as the web request.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): DNS and transport are as critical as the web request.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -152,11 +152,11 @@ DNS hijacking redirects users to a malicious site.
 
 ### Q5. TCP vs UDP
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 TCP is reliable and connection-oriented. UDP is fast and connectionless.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): security depends on the use case, not the protocol alone.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): security depends on the use case, not the protocol alone.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -187,11 +187,11 @@ DNS amplification DDoS disrupts public services.
 
 ### Q6. What is a firewall?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 A firewall filters traffic based on rules like IP, port, and protocol.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): firewalls reduce risk, they do not eliminate it.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): firewalls reduce risk, they do not eliminate it.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -224,11 +224,11 @@ Attacker pivots laterally after initial compromise.
 
 ### Q7. Antivirus vs EDR vs SIEM
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates and correlates logs.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): tools support decisions; response and ownership matter most.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): tools support decisions; response and ownership matter most.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -260,11 +260,11 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 
 ### Q8. What are logs and why do they matter?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Logs provide visibility, detection, accountability, and forensic evidence.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): quality and consistency matter more than sheer volume.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): quality and consistency matter more than sheer volume.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -296,11 +296,11 @@ Missing logs delay breach detection.
 
 ### Q9. Suspected malware -- first step?
 
-![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-f9f2e1?style=flat)
+![Strong Sample Answer](https://img.shields.io/badge/Strong%20Sample%20Answer-e2d2b6?style=flat)
 
 Isolate the system, preserve evidence, escalate per procedure.
 
-> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d7cfc0?style=flat): containment first, then investigation.
+> ![Neutral takeaway](https://img.shields.io/badge/Neutral%20takeaway-d9d9d9?style=flat&labelColor=eeeeee): containment first, then investigation.
 
 ![Pressure Questions + Answers](https://img.shields.io/badge/Pressure%20Questions%20%2B%20Answers-e26a58?style=flat)
 
@@ -362,6 +362,11 @@ Malware spreads due to delayed isolation.
 - Clear escalation
 - Process over ego
 - Business-aware decisions
+
+
+
+
+
 
 
 
