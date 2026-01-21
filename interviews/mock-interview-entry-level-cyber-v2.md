@@ -8,13 +8,13 @@ Purpose: prepare for entry-level cybersecurity interviews by demonstrating clear
 
 ### Q1. What is the CIA triad?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Confidentiality prevents unauthorized access, integrity prevents unauthorized modification, and availability ensures systems remain accessible when needed.
 
-> Neutral takeaway: the priority can shift by environment and business impact.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: the priority can shift by environment and business impact.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Which is most impacted by ransomware?**
   Availability first, then integrity.
@@ -23,11 +23,11 @@ Confidentiality prevents unauthorized access, integrity prevents unauthorized mo
 - **Hospital system -- what is the priority?**
   Availability, but never at the cost of patient data confidentiality.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Ransomware encrypts hospital systems, halting patient care.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
@@ -35,7 +35,7 @@ Ransomware encrypts hospital systems, halting patient care.
 | `df -h` | `Get-Service` |
 | `systemctl status` | `wevtutil qe System` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Treating CIA as equal in all environments
 - Ignoring business impact
@@ -44,13 +44,13 @@ Ransomware encrypts hospital systems, halting patient care.
 
 ### Q2. Authentication vs Authorization
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Authentication verifies identity. Authorization determines access after identity is verified.
 
-> Neutral takeaway: identity precedes access; least privilege limits impact.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: identity precedes access; least privilege limits impact.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Can authorization exist without authentication?**
   No -- authorization assumes identity.
@@ -59,11 +59,11 @@ Authentication verifies identity. Authorization determines access after identity
 - **How does least privilege help?**
   Limits blast radius after compromise.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Compromised credentials grant excessive access due to poor RBAC.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
@@ -71,7 +71,7 @@ Compromised credentials grant excessive access due to poor RBAC.
 | `groups` | `Get-LocalGroup` |
 | `sudo -l` | `whoami /priv` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Using terms interchangeably
 - Ignoring access reviews
@@ -80,13 +80,13 @@ Compromised credentials grant excessive access due to poor RBAC.
 
 ### Q3. What is phishing?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Phishing is social engineering designed to trick users into revealing information or executing malicious actions.
 
-> Neutral takeaway: response is about containment and escalation, not blame.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: response is about containment and escalation, not blame.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **User clicked link -- now what?**
   Isolate system, report, preserve evidence.
@@ -95,18 +95,18 @@ Phishing is social engineering designed to trick users into revealing informatio
 - **Why is spear phishing harder?**
   Personalization increases trust.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Business Email Compromise leads to fraudulent wire transfer.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `grep mail.log` | `Get-WinEvent -LogName Security` |
 | `journalctl` | `Get-MessageTrace` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Blaming users
 - Failing to escalate quickly
@@ -117,13 +117,13 @@ Business Email Compromise leads to fraudulent wire transfer.
 
 ### Q4. What happens when you type a URL into a browser?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 
-> Neutral takeaway: DNS and transport are as critical as the web request.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: DNS and transport are as critical as the web request.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Where can attackers intercept?**
   DNS, network, or TLS downgrade.
@@ -132,18 +132,18 @@ DNS resolution, TCP connection, TLS handshake, HTTP request/response.
 - **Why HTTPS?**
   Encryption and integrity.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 DNS hijacking redirects users to a malicious site.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `dig` | `nslookup` |
 | `ss -tuln` | `netstat -ano` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Skipping DNS
 - Treating HTTPS as "just encryption"
@@ -152,13 +152,13 @@ DNS hijacking redirects users to a malicious site.
 
 ### Q5. TCP vs UDP
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 TCP is reliable and connection-oriented. UDP is fast and connectionless.
 
-> Neutral takeaway: security depends on the use case, not the protocol alone.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: security depends on the use case, not the protocol alone.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Why UDP in amplification attacks?**
   No handshake, spoofable source IPs.
@@ -167,18 +167,18 @@ TCP is reliable and connection-oriented. UDP is fast and connectionless.
 - **Is UDP insecure by default?**
   No -- depends on the use case.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 DNS amplification DDoS disrupts public services.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `tcpdump` | `netstat -an` |
 | `ss -u` | `Get-NetUDPEndpoint` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Calling UDP "unsafe"
 - Ignoring protocol context
@@ -187,13 +187,13 @@ DNS amplification DDoS disrupts public services.
 
 ### Q6. What is a firewall?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 A firewall filters traffic based on rules like IP, port, and protocol.
 
-> Neutral takeaway: firewalls reduce risk, they do not eliminate it.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: firewalls reduce risk, they do not eliminate it.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **What bypasses firewalls?**
   Allowed ports and insider threats.
@@ -202,18 +202,18 @@ A firewall filters traffic based on rules like IP, port, and protocol.
 - **Host vs network firewall?**
   Local vs perimeter control.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Attacker pivots laterally after initial compromise.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `iptables -L` | `Get-NetFirewallRule` |
 | `ufw status` | `Get-NetFirewallProfile` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Treating firewalls as full security
 - No segmentation
@@ -224,13 +224,13 @@ Attacker pivots laterally after initial compromise.
 
 ### Q7. Antivirus vs EDR vs SIEM
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates and correlates logs.
 
-> Neutral takeaway: tools support decisions; response and ownership matter most.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: tools support decisions; response and ownership matter most.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Why won't SIEM stop malware?**
   It detects; it does not block.
@@ -239,11 +239,11 @@ Antivirus detects known malware, EDR monitors endpoint behavior, SIEM aggregates
 - **Post-incident -- most useful?**
   SIEM.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 EDR detects lateral movement; SIEM correlates domain-wide activity.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
@@ -251,7 +251,7 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 | `last` | `Get-WinEvent` |
 | `/var/log` | `Get-WinEvent -LogName Security` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Treating tools as interchangeable
 - No alert ownership
@@ -260,13 +260,13 @@ EDR detects lateral movement; SIEM correlates domain-wide activity.
 
 ### Q8. What are logs and why do they matter?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Logs provide visibility, detection, accountability, and forensic evidence.
 
-> Neutral takeaway: quality and consistency matter more than sheer volume.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: quality and consistency matter more than sheer volume.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **What makes logs unreliable?**
   No NTP, gaps, or tampering.
@@ -275,18 +275,18 @@ Logs provide visibility, detection, accountability, and forensic evidence.
 - **Reduce alert fatigue?**
   Tuning and baselining.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Missing logs delay breach detection.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `journalctl` | `w32tm /query /status` |
 | `chronyc tracking` | `Get-WinEvent` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Logging everything, analyzing nothing
 
@@ -296,13 +296,13 @@ Missing logs delay breach detection.
 
 ### Q9. Suspected malware -- first step?
 
-**Strong Sample Answer**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Strong Sample Answer</code>
 
 Isolate the system, preserve evidence, escalate per procedure.
 
-> Neutral takeaway: containment first, then investigation.
+> <code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Neutral takeaway</code>: containment first, then investigation.
 
-**Pressure Questions + Answers**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Pressure Questions + Answers</code>
 
 - **Who do you notify?**
   SOC or IR lead.
@@ -311,18 +311,18 @@ Isolate the system, preserve evidence, escalate per procedure.
 - **Executive device?**
   Same process, higher urgency.
 
-**Real-World Breach Scenario**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Real-World Breach Scenario</code>
 
 Malware spreads due to delayed isolation.
 
-**Linux / Windows Follow-Ups**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Linux / Windows Follow-Ups</code>
 
 | Linux | Windows |
 | --- | --- |
 | `ip link set down` | Disable NIC |
 | `ps aux` | `tasklist` |
 
-**Common Mistakes**
+<code style="background-color:#f3f4f6;color:#374151;padding:0.1em 0.35em;border-radius:0.35em;">Common Mistakes</code>
 
 - Rebooting
 - Acting without authorization
@@ -362,3 +362,4 @@ Malware spreads due to delayed isolation.
 - Clear escalation
 - Process over ego
 - Business-aware decisions
+
