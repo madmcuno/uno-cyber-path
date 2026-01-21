@@ -5,6 +5,9 @@ This lab demonstrates the design, deployment, hardening, and validation of an en
 
 The lab was built and tested entirely in VirtualBox using multiple Linux virtual machines to simulate realistic traffic flows and attack surfaces.
 
+> [!NOTE]
+> All validation steps were performed in a local lab. Adapt IPs and hardening steps to match your environment.
+
 ---
 
 ## Objectives
@@ -105,6 +108,9 @@ Blocked:
 - Anti-lockout rule disabled after MGMT validation
 - Explicit LAN to firewall block rule enforced
 
+> [!IMPORTANT]
+> Keep administrative access isolated. A reachable management plane from LAN or DMZ defeats segmentation.
+
 ---
 
 ## Validation and Testing
@@ -124,6 +130,9 @@ Negative tests:
 Rate limiting:
 - Traffic observed in limiter queues via pfTop
 - Limiter enforcement verified using repeated requests
+
+> [!TIP]
+> Run each test from the intended zone to confirm both routing and rule intent, not just service reachability.
 
 ---
 

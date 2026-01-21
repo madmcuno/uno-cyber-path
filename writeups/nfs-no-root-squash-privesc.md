@@ -3,11 +3,17 @@
 ## Overview
 This write-up demonstrates how a misconfigured NFS export using `no_root_squash` can lead to full root compromise. The exercise was performed in a controlled lab environment to understand enumeration, trust boundaries, and privilege escalation mechanics.
 
+> [!NOTE]
+> This procedure is for isolated lab validation only. Do not run against systems you do not own or explicitly control.
+
 ## Key Concepts
 - **NFS (Network File System)** allows directories to be shared over a network
 - **root_squash** maps remote root to an unprivileged user (safe default)
 - **no_root_squash** preserves root privileges across NFS (dangerous)
 - Enumeration reveals exposure before exploitation
+
+> [!WARNING]
+> Exports with `no_root_squash` effectively grant remote root on the share and should be treated as high-risk.
 
 ---
 
