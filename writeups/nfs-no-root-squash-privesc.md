@@ -1,4 +1,4 @@
-# NFS Misconfiguration: no_root_squash Privilege Escalation
+﻿# NFS Misconfiguration: no_root_squash Privilege Escalation
 
 ## Overview
 This write-up demonstrates how a misconfigured NFS export using `no_root_squash` can lead to full root compromise. The exercise was performed in a controlled lab environment to understand enumeration, trust boundaries, and privilege escalation mechanics.
@@ -75,5 +75,6 @@ sudo umount /tmp/nfs_enum
 - Enumeration always precedes exploitation
 - Misconfigurations can be more dangerous than missing patches
 - `no_root_squash` should almost never be used
-- Fixes must be verified from the attacker’s perspective
+- Fixes must be verified from the attacker's perspective
+
 
